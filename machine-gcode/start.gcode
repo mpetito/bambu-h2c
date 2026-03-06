@@ -516,7 +516,9 @@ M400
 ;M73 P99
 
 ;===== for Textured PEI Plate , lower the nozzle as the nozzle was touching topmost of the texture when homing ==
-    {if curr_bed_type=="Textured PEI Plate"}
+    {if curr_bed_type=="Textured PEI Plate"
+      && !((filament_type[initial_no_support_extruder] == "PCTG") || (filament_type[initial_no_support_extruder] == "PCTG-CF")) 
+    } ; unless PCTG which needs some extra space for first layer extrusion
         G29.1 Z{-0.02} ; for Textured PEI Plate
     {endif}
     
@@ -576,6 +578,7 @@ M1015.3 S0;disable tpu clog detect
 {endif}
 
 {if (filament_type[initial_no_support_extruder] == "PLA") ||  (filament_type[initial_no_support_extruder] == "PETG")
+ || (filament_type[initial_no_support_extruder] == "PCTG") || (filament_type[initial_no_support_extruder] == "PCTG-CF")
  ||  (filament_type[initial_no_support_extruder] == "PLA-CF")  ||  (filament_type[initial_no_support_extruder] == "PETG-CF")}
 M1015.4 S1 K1 H[nozzle_diameter] ;enable E air printing detect
 {else}
