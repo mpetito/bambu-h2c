@@ -15,7 +15,7 @@
         "3"
     ],
     "compatible_printers": [
-        "Bambu Lab H2C 0.4 nozzle"
+        "Bambu Lab H2C 0.8 nozzle"
     ],
     "compatible_printers_condition": "",
     "compatible_prints": [],
@@ -75,7 +75,7 @@
         "30"
     ],
     "fan_max_speed": [
-        "50"
+        "40"
     ],
     "fan_min_speed": [
         "10"
@@ -150,7 +150,7 @@
         "Direct Drive High Flow"
     ],
     "filament_flow_ratio": [
-        "0.97",
+        "0.98",
         "0.98"
     ],
     "filament_flush_temp": [
@@ -170,13 +170,13 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "13",
-        "16"
+        "30",
+        "36"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
     ],
-    "filament_notes": "Updated by John Schneider on 1/29/26 @ 4:16pm\n- Changed adhesiveness category from '0' to '300'\n\nUpdated by John Schneider on 1/29/26 @ 5:00pm\n- Changed Standard Flow volumetric max from 10 to 16\n\nUpdated by John Schneider on 2/4/26 @ 5:59pm\n- Increased minimum print speed (in cooling) from 15 to 20 mm/s\n",
+    "filament_notes": "Updated by John Schneider on 2/5/26 @ 12:24pm\n\nUpdated by John Schneider on 2/26/26 @ 2:51pm\n- Updated adhesiveness category from '0' to '300'",
     "filament_overhang_1_4_speed": [
         "0",
         "0"
@@ -231,8 +231,8 @@
         "-1"
     ],
     "filament_retract_before_wipe": [
-        "0%",
-        "0%"
+        "nil",
+        "nil"
     ],
     "filament_retract_length_nc": [
         "14",
@@ -243,16 +243,16 @@
         "nil"
     ],
     "filament_retract_when_changing_layer": [
-        "1",
-        "1"
+        "nil",
+        "nil"
     ],
     "filament_retraction_distances_when_cut": [
         "nil",
         "nil"
     ],
     "filament_retraction_length": [
-        "0.4",
-        "0.4"
+        "nil",
+        "0"
     ],
     "filament_retraction_minimum_travel": [
         "nil",
@@ -275,7 +275,7 @@
         "none"
     ],
     "filament_settings_id": [
-        "3D-Fuel PCTG Pro @Bambu Lab H2C 0.4 nozzle"
+        "3D-Fuel PCTG Pro @Bambu Lab H2C 0.8 nozzle"
     ],
     "filament_shrink": [
         "100%"
@@ -311,16 +311,16 @@
         "3D-Fuel"
     ],
     "filament_wipe": [
-        "1",
-        "1"
+        "nil",
+        "nil"
     ],
     "filament_wipe_distance": [
-        "1",
-        "1"
+        "nil",
+        "nil"
     ],
     "filament_z_hop": [
-        "0.6",
-        "0.6"
+        "nil",
+        "nil"
     ],
     "filament_z_hop_types": [
         "nil",
@@ -362,7 +362,7 @@
         "1",
         "1"
     ],
-    "name": "3D-Fuel PCTG Pro @Bambu Lab H2C 0.4 nozzle",
+    "name": "3D-Fuel PCTG Pro @Bambu Lab H2C 0.8 nozzle",
     "no_slow_down_for_cooling_on_outwalls": [
         "0"
     ],
@@ -375,7 +375,7 @@
         "270"
     ],
     "nozzle_temperature_range_high": [
-        "300"
+        "290"
     ],
     "nozzle_temperature_range_low": [
         "250"
@@ -416,8 +416,8 @@
         "12"
     ],
     "slow_down_min_speed": [
-        "20",
-        "20"
+        "10",
+        "10"
     ],
     "supertack_plate_temp": [
         "0"
@@ -434,7 +434,7 @@
     "textured_plate_temp_initial_layer": [
         "80"
     ],
-    "version": "2.4.0.1",
+    "version": "2.4.0.10",
     "volumetric_speed_coefficients": [
         "0 0 0 0 0 0",
         "0 0 0 0 0 0"
