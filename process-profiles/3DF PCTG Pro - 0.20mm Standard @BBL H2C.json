@@ -1,0 +1,81 @@
+{
+    "default_acceleration": [
+        "1000",
+        "nil",
+        "1000",
+        "nil"
+    ],
+    "from": "User",
+    "gap_infill_speed": [
+        "150",
+        "nil",
+        "150",
+        "nil"
+    ],
+    "inherits": "0.20mm Standard @BBL H2C",
+    "initial_layer_travel_acceleration": [
+        "3000",
+        "nil",
+        "3000",
+        "nil"
+    ],
+    "inner_wall_speed": [
+        "200",
+        "nil",
+        "200",
+        "nil"
+    ],
+    "internal_solid_infill_speed": [
+        "200",
+        "nil",
+        "200",
+        "nil"
+    ],
+    "name": "3DF PCTG Pro - 0.20mm Standard @BBL H2C",
+    "outer_wall_acceleration": [
+        "2500",
+        "nil",
+        "2500",
+        "nil"
+    ],
+    "outer_wall_speed": [
+        "100",
+        "nil",
+        "100",
+        "nil"
+    ],
+    "print_extruder_id": [
+        "1",
+        "1",
+        "2",
+        "2"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "print_settings_id": "3DF PCTG Pro - 0.20mm Standard @BBL H2C",
+    "process_notes": "Updated by John Schneider on 1/10/26 @ 5:33pm",
+    "sparse_infill_pattern": "cubic",
+    "sparse_infill_speed": [
+        "250",
+        "nil",
+        "250",
+        "nil"
+    ],
+    "top_surface_acceleration": [
+        "1000",
+        "nil",
+        "1000",
+        "nil"
+    ],
+    "travel_acceleration": [
+        "5000",
+        "nil",
+        "5000",
+        "nil"
+    ],
+    "version": "2.4.0.10"
+}
