@@ -1,48 +1,48 @@
 {
     "default_acceleration": [
         "1000",
-        "nil",
+        "1500",
         "1000",
-        "nil"
+        "1500"
     ],
     "from": "User",
     "gap_infill_speed": [
         "150",
-        "nil",
+        "200",
         "150",
-        "nil"
+        "200"
     ],
     "inherits": "0.20mm Standard @BBL H2C",
     "initial_layer_travel_acceleration": [
         "3000",
-        "nil",
         "3000",
-        "nil"
+        "3000",
+        "3000"
     ],
     "inner_wall_speed": [
         "200",
-        "nil",
+        "250",
         "200",
-        "nil"
+        "250"
     ],
     "internal_solid_infill_speed": [
         "200",
-        "nil",
+        "250",
         "200",
-        "nil"
+        "250"
     ],
     "name": "3DF PCTG Pro - 0.20mm Standard @BBL H2C",
     "outer_wall_acceleration": [
         "2500",
-        "nil",
         "2500",
-        "nil"
+        "2500",
+        "2500"
     ],
     "outer_wall_speed": [
         "100",
-        "nil",
+        "150",
         "100",
-        "nil"
+        "150"
     ],
     "print_extruder_id": [
         "1",
@@ -57,25 +57,25 @@
         "Direct Drive High Flow"
     ],
     "print_settings_id": "3DF PCTG Pro - 0.20mm Standard @BBL H2C",
-    "process_notes": "Updated by John Schneider on 1/10/26 @ 5:33pm",
+    "process_notes": "Updated 3/14/26: Added HF nozzle variant with PCTG-appropriate speed/accel limits",
     "sparse_infill_pattern": "cubic",
     "sparse_infill_speed": [
         "250",
-        "nil",
+        "400",
         "250",
-        "nil"
+        "400"
     ],
     "top_surface_acceleration": [
         "1000",
-        "nil",
         "1000",
-        "nil"
+        "1000",
+        "1000"
     ],
     "travel_acceleration": [
         "5000",
-        "nil",
         "5000",
-        "nil"
+        "5000",
+        "5000"
     ],
     "version": "2.4.0.10"
 }
