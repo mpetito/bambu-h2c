@@ -1,0 +1,88 @@
+{
+    "default_acceleration": [
+        "1000",
+        "1500",
+        "1000",
+        "1500"
+    ],
+    "from": "User",
+    "gap_infill_speed": [
+        "150",
+        "200",
+        "150",
+        "200"
+    ],
+    "inherits": "0.24mm Balanced Strength @BBL H2C 0.6 nozzle",
+    "initial_layer_travel_acceleration": [
+        "3000",
+        "3000",
+        "3000",
+        "3000"
+    ],
+    "inner_wall_speed": [
+        "200",
+        "250",
+        "200",
+        "250"
+    ],
+    "internal_solid_infill_speed": [
+        "200",
+        "250",
+        "200",
+        "250"
+    ],
+    "name": "3DF PCTG Pro - 0.24mm Balanced Strength @BBL H2C 0.6 nozzle",
+    "outer_wall_acceleration": [
+        "2500",
+        "2500",
+        "2500",
+        "2500"
+    ],
+    "outer_wall_speed": [
+        "100",
+        "150",
+        "100",
+        "150"
+    ],
+    "print_extruder_id": [
+        "1",
+        "1",
+        "2",
+        "2"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "print_settings_id": "3DF PCTG Pro - 0.24mm Balanced Strength @BBL H2C 0.6 nozzle",
+    "process_notes": "Updated 3/14/26: Added HF nozzle variant with PCTG-appropriate speed/accel limits",
+    "sparse_infill_pattern": "cubic",
+    "sparse_infill_speed": [
+        "250",
+        "400",
+        "250",
+        "400"
+    ],
+    "top_surface_acceleration": [
+        "1000",
+        "1000",
+        "1000",
+        "1000"
+    ],
+    "top_surface_speed": [
+        "150",
+        "150",
+        "150",
+        "150"
+    ],
+    "travel_acceleration": [
+        "5000",
+        "5000",
+        "5000",
+        "5000"
+    ],
+    "version": "2.4.0.10",
+    "wall_generator": "arachne"
+}
